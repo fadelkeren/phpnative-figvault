@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /javascript/php/public/
+
+# Jika file/directory yang diminta tidak ada
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect ke index.php
+RewriteRule ^(.*)$ index.php [QSA,L]

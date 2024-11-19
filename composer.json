@@ -1,0 +1,17 @@
+{
+    "name": "virga/php",
+    "autoload": {
+        "psr-4": {
+            "Virga\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Virgarakha",
+            "email": "virgakumara@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.18"
+    }
+}
